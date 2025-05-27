@@ -1022,9 +1022,9 @@ int main()
             offsets.offset_sbl_sxlock     = 0x280F818;
             offsets.offset_mailbox_flags  = 0x2CFA820;
             offsets.offset_mailbox_meta   = 0x2CFA5C0;
-            offsets.offset_dmpml4i        = 0x2E58AE4;
-            offsets.offset_dmpdpi         = 0x2E58AE8;
-            offsets.offset_pml4pml4i      = 0x2E5779C;
+            offsets.offset_dmpml4i        = 0x2E58AD4;
+            offsets.offset_dmpdpi         = 0x2E58AD8;
+            offsets.offset_pml4pml4i      = 0x2E5778C;
             offsets.offset_g_message_id   = 0x4270000;
             offsets.offset_datacave_1     = 0x5060000;
             offsets.offset_datacave_2     = 0x5064000;
