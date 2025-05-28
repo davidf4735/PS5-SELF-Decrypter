@@ -1029,7 +1029,23 @@ int main()
             offsets.offset_datacave_1     = 0x5060000;
             offsets.offset_datacave_2     = 0x5064000;
             break;
-	    
+        case 0x9000000:
+        case 0x9200000:
+        case 0x9400000:
+        case 0x9600000:
+            offsets.offset_authmgr_handle = 0xDC8D60;
+            offsets.offset_sbl_mb_mtx     = 0x26F71F8;
+            offsets.offset_mailbox_base   = 0x26F7200;
+            offsets.offset_sbl_sxlock     = 0x26F7208;
+            offsets.offset_mailbox_flags  = 0x2BDA860;
+            offsets.offset_mailbox_meta   = 0x2BDA600;
+            offsets.offset_dmpml4i        = 0x2D38E14;
+            offsets.offset_dmpdpi         = 0x2D38E18;
+            offsets.offset_pml4pml4i      = 0x2D379CC;
+            offsets.offset_g_message_id   = 0x4270000;
+            offsets.offset_datacave_1     = 0x5060000;
+            offsets.offset_datacave_2     = 0x5064000;
+            break;
         case 0x10000000:
         case 0x10010000:
         case 0x10200000:
