@@ -1029,6 +1029,26 @@ int main()
             offsets.offset_datacave_1     = 0x5060000;
             offsets.offset_datacave_2     = 0x5064000;
             break;
+	    
+        case 0x10000000:
+        case 0x10010000:
+        case 0x10200000:
+        case 0x10400000:
+        case 0x10600000:
+            offsets.offset_authmgr_handle = 0x0DC8DF0;
+            offsets.offset_sbl_mb_mtx     = 0x27071F8;
+            offsets.offset_mailbox_base   = 0x2707200;
+            offsets.offset_sbl_sxlock     = 0x2707208;
+            offsets.offset_mailbox_flags  = 0x2BFE860;
+            offsets.offset_mailbox_meta   = 0x2BFE600;
+            offsets.offset_dmpml4i        = 0x2D01194;
+            offsets.offset_dmpdpi         = 0x2D01198;
+            offsets.offset_pml4pml4i      = 0x2CFFD4C;
+            offsets.offset_g_message_id   = 0x4270000;
+            offsets.offset_datacave_1     = 0x5060000;
+            offsets.offset_datacave_2     = 0x5064000;
+            break;
+	    
         default:
             SOCK_LOG(sock, "[!] unsupported firmware, dumping then bailing!\n");
             char *dump_buf = mmap(NULL, 0x7800 * 0x1000, PROT_READ | PROT_WRITE, MAP_ANONYMOUS | MAP_PRIVATE, -1, 0);
