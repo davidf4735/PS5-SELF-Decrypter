@@ -1016,15 +1016,15 @@ int main()
         case 0x8200000:
         case 0x8400000:
         case 0x8600000:
-            offsets.offset_authmgr_handle = 0x0E303C0;
-            offsets.offset_sbl_mb_mtx     = 0x280F888;
-            offsets.offset_mailbox_base   = 0x280F890;
-            offsets.offset_sbl_sxlock     = 0x280F898;
-            offsets.offset_mailbox_flags  = 0x2CFA820;
-            offsets.offset_mailbox_meta   = 0x2CFA5C0;
-            offsets.offset_dmpml4i        = 0x2E58AE4;
-            offsets.offset_dmpdpi         = 0x2E58AE8;
-            offsets.offset_pml4pml4i      = 0x2E5779C;
+            offsets.offset_authmgr_handle = 0x0E203C0;
+            offsets.offset_sbl_mb_mtx     = 0x27FF888;
+            offsets.offset_mailbox_base   = 0x27FF890;
+            offsets.offset_sbl_sxlock     = 0x27FF898;
+            offsets.offset_mailbox_flags  = 0x2CEA820;
+            offsets.offset_mailbox_meta   = 0x2CEA5C0;
+            offsets.offset_dmpml4i        = 0x2E48AE4;
+            offsets.offset_dmpdpi         = 0x2E48AE8;
+            offsets.offset_pml4pml4i      = 0x2E4779C;
             offsets.offset_g_message_id   = 0x4270000;
             offsets.offset_datacave_1     = 0x5060000;
             offsets.offset_datacave_2     = 0x5064000;
@@ -1033,15 +1033,15 @@ int main()
         case 0x9200000:
         case 0x9400000:
         case 0x9600000:
-            offsets.offset_authmgr_handle = 0xDC8D60;
-            offsets.offset_sbl_mb_mtx     = 0x26F71F8;
-            offsets.offset_mailbox_base   = 0x26F7200;
-            offsets.offset_sbl_sxlock     = 0x26F7208;
-            offsets.offset_mailbox_flags  = 0x2BDA860;
-            offsets.offset_mailbox_meta   = 0x2BDA600;
-            offsets.offset_dmpml4i        = 0x2D38E14;
-            offsets.offset_dmpdpi         = 0x2D38E18;
-            offsets.offset_pml4pml4i      = 0x2D379CC;
+            offsets.offset_authmgr_handle = 0xDB8D60;
+            offsets.offset_sbl_mb_mtx     = 0x26E71F8;
+            offsets.offset_mailbox_base   = 0x26E7200;
+            offsets.offset_sbl_sxlock     = 0x26E7208;
+            offsets.offset_mailbox_flags  = 0x2BCA860;
+            offsets.offset_mailbox_meta   = 0x2BCA600;
+            offsets.offset_dmpml4i        = 0x2D28E14;
+            offsets.offset_dmpdpi         = 0x2D28E18;
+            offsets.offset_pml4pml4i      = 0x2D279CC;
             offsets.offset_g_message_id   = 0x4270000;
             offsets.offset_datacave_1     = 0x5060000;
             offsets.offset_datacave_2     = 0x5064000;
@@ -1051,15 +1051,15 @@ int main()
         case 0x10200000:
         case 0x10400000:
         case 0x10600000:
-            offsets.offset_authmgr_handle = 0x0DC8DF0;
-            offsets.offset_sbl_mb_mtx     = 0x27071F8;
-            offsets.offset_mailbox_base   = 0x2707200;
-            offsets.offset_sbl_sxlock     = 0x2707208;
-            offsets.offset_mailbox_flags  = 0x2BFE860;
-            offsets.offset_mailbox_meta   = 0x2BFE600;
-            offsets.offset_dmpml4i        = 0x2D01194;
-            offsets.offset_dmpdpi         = 0x2D01198;
-            offsets.offset_pml4pml4i      = 0x2CFFD4C;
+            offsets.offset_authmgr_handle = 0x0DB8DF0;
+            offsets.offset_sbl_mb_mtx     = 0x25F71F8;
+            offsets.offset_mailbox_base   = 0x26F7200;
+            offsets.offset_sbl_sxlock     = 0x26F7208;
+            offsets.offset_mailbox_flags  = 0x2BEE860;
+            offsets.offset_mailbox_meta   = 0x2BEE600;
+            offsets.offset_dmpml4i        = 0x2CF1194;
+            offsets.offset_dmpdpi         = 0x2CF1198;
+            offsets.offset_pml4pml4i      = 0x2CEFD4C;
             offsets.offset_g_message_id   = 0x4270000;
             offsets.offset_datacave_1     = 0x5060000;
             offsets.offset_datacave_2     = 0x5064000;
