@@ -94,7 +94,6 @@ static void _mkdir(const char *dir) {
     char tmp[PATH_MAX];
     char *p = NULL;
     size_t len;
-mnt/usb0/
     snprintf(tmp, sizeof(tmp),"%s",dir);
     len = strlen(tmp);
     if (tmp[len - 1] == '/')
