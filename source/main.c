@@ -1104,7 +1104,7 @@ int main()
     // i did this so when i pass in `/mnt/sandbox/pfsmnt` it will only dump `/mnt/sandbox/pfsmnt/PPSA01487-app0-patch0-union`
     // bc for ps5 games, `app0` and `app0-patch0-union` has the same files
 
-    dump_queue_add_dir(sock, "/system/common/lib/libSceLibcInternal.sprx", 1);
+    dump_queue_add_file(sock, "/system/common/lib/libSceLibcInternal.sprx");
     dump(sock, authmgr_handle, &offsets, "/data/dump");
 
 out:
